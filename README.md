@@ -4,6 +4,26 @@ A robust and scalable backend API built with **Node.js** and **Express.js**, fea
 
 ---
 
+## 🌐 Live API
+
+* https://ai-email-auth-api.onrender.com
+
+---
+
+## Example API Usage
+
+# Register
+* POST https://ai-email-auth-api.onrender.com/api/auth/register
+
+# Login
+* POST https://ai-email-auth-api.onrender.com/api/auth/login
+
+# Logout
+* POST https://ai-email-auth-api.onrender.com/api/auth/logout
+
+# get-user
+* Get https://ai-email-auth-api.onrender.com/api/auth/get-me
+
 ##  Features
 
 *  Secure User Authentication (Register, Login, Logout)
