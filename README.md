@@ -35,6 +35,57 @@ api is working
 # get-user
 * Get https://ai-email-auth-api.onrender.com/api/auth/get-me
 
+
+##  AI Email Generator API
+
+### Generate Email
+
+POST /api/prompt
+
+* https://ai-email-auth-api.onrender.com/api/prompt
+
+---
+
+###  Request Body (JSON)
+
+{
+  "prompt": "Job application for frontend developer",
+  "type": "job",
+  "recipient": "HR Manager",
+  "tone": "formal",
+  "language": "English",
+  "length": "medium"
+}
+
+---
+
+###  Field Explanation
+
+| Field      | Description |
+|------------|------------|
+| prompt     | Main idea or message of the email |
+| type       | Type of email (job, business, complaint, etc.) |
+| recipient  | Who the email is for (HR, client, manager, etc.) |
+| tone       | Tone of email (formal, casual, friendly) |
+| language   | Language of email (English, Hindi, etc.) |
+| length     | Email size (short, medium, long) |
+
+---
+
+###  Response Example
+
+{
+  "success": true,
+  "message": "Responsed successfully",
+  "data": {
+    "prompt": "Job application for frontend developer",
+    "reply": "Full AI generated email...",
+    "_id": "unique_id",
+    "createdAt": "timestamp",
+    "updatedAt": "timestamp"
+  }
+}
+
 ##  Features
 
 *  Secure User Authentication (Register, Login, Logout)
