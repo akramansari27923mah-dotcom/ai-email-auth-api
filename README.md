@@ -57,7 +57,7 @@ git clone https://github.com/akramansari27923mah-dotcom/ai-email-auth-api.git
 ### 2️⃣ Navigate to Project Folder
 
 ```bash
-cd auth-api-backend
+cd ai-email-auth-api
 ```
 
 ### 3️⃣ Install Dependencies
