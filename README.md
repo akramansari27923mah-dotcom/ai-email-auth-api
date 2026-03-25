@@ -10,6 +10,17 @@ A robust and scalable backend API built with **Node.js** and **Express.js**, fea
 
 ---
 
+## ⚡ Quick Test
+
+Check if API is running:
+
+GET https://ai-email-auth-api.onrender.com/test
+
+Response:
+api is working 
+
+---
+
 ## Example API Usage
 
 # Register
